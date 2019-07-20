@@ -1,3 +1,13 @@
+
+
+
+/*
+============================================
+; Title: App Component
+; Author: Griselda Balmaceda
+; Description: Two Way data binding
+;===========================================
+*/
 import { Component } from '@angular/core';
 
 @Component({
