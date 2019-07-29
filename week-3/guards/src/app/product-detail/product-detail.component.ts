@@ -1,3 +1,12 @@
+/*
+============================================
+; Title: Product Detail
+; Author: Griselda Balmaceda
+; Description: Holds Product Detail view
+;===========================================
+*/
+
+
 import { Component, OnInit} from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 @Component({

@@ -1,3 +1,13 @@
+/*
+============================================
+; Title: Login Guard
+; Author: Griselda Balmaceda
+; Description: login guard  allows the user
+to see the product detail
+;===========================================
+*/
+
+
 import { Injectable } from "@angular/core";
 import { CanActivate, Router} from '@angular/router';
 

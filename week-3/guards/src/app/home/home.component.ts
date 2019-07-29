@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: Home Component
+; Author: Griselda Balmaceda
+; Description: Holds Home view
+;===========================================
+*/
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
