@@ -1,5 +1,9 @@
+import { UnsavedChangesGuard } from './unsaved-changed.guard';
+import { LoginGuard } from './login.guard';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -9,15 +13,19 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 @NgModule({
   declarations: [
     AppComponent,
+    ProductDetailComponent,
     LoginComponent,
-    HomeComponent,
-    ProductDetailComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    LoginGuard,
+    UnsavedChangesGuard
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
