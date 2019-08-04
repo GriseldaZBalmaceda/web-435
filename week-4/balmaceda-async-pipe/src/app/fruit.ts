@@ -1,5 +1,6 @@
 export interface Fruit {
     id:number,
     name:string,
-    pricePerPound
+    pricePerPound:number,
+    quantity:number
 }
