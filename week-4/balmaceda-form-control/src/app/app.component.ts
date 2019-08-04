@@ -31,7 +31,7 @@ import {debounceTime} from 'rxjs/operators'
   <br /> <br />
   <div class="row">
     <div class="col">
-      <h4 class="txt-bold">Results: {{convertedStockPrice}}</h4>
+      <h4 class="txt-bold greenMessage">Results: {{convertedStockPrice}}</h4>
     </div>
   </div>
   </div>
@@ -39,6 +39,10 @@ import {debounceTime} from 'rxjs/operators'
   `,
   styles:[`
   .txt-bold{font-wieght:bold}
+  .greenMessage{
+    background-color:lightgreen;
+    border:solid 1px green;
+  }
   `
 
   ] 
