@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: App Routing Module
+; Author: Griselda Balmaceda
+; Description: controls routing
+;===========================================
+*/
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 

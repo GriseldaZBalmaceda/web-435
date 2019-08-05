@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: Fruit Service
+; Author: Griselda Balmaceda
+; Description: Creating a getFruit function that will be exported
+;===========================================
+*/
+
 import { Injectable } from '@angular/core';
 import {Fruit} from './fruit';
 @Injectable({

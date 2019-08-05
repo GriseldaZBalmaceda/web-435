@@ -7,17 +7,28 @@ import {Fruit} from './fruit'
   template: `
   <br /> <br />
   <div class="container">
-  <h1>Hello</h1>
   <div class="row">
-  <div class="col">
-  <ul>
-  <li *ngFor="let fruit of fruits | async">
-  {{fruit.name}}
-  </li>
-  </ul>
+    <h2>Fruit Order</h2>
+    <table class="table table-hover table-striped">
+      <thead class="tbl-header">
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr  *ngFor="let fruit of fruits | async">
+          <td>{{ fruit.id }}</td>
+          <td>{{ fruit.name }}</td>
+          <td>{{ fruit.pricePerPound }}</td>
+          <td>{{ fruit.quantity }}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-  </div>
-  </div>
+</div>
 
   `,
   styleUrls: ['./app.component.scss'],

@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: Fruit Component
+; Author: Griselda Balmaceda
+; Description: Holds fruit template and main functions
+;===========================================
+*/
+
 import { Component, OnInit } from '@angular/core';
 import {FruitService} from './fruit.service'
 import {Fruit} from './fruit';

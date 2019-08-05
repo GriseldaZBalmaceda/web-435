@@ -1,3 +1,11 @@
+/*
+============================================
+; Title:  Fruit Service
+; Author: Griselda Balmaceda
+; Description: App components is the root of the applications
+;===========================================
+*/
+
 import { Injectable } from '@angular/core';
 import {Fruit} from './fruit';
 import 'rxjs/add/observable/of';
@@ -7,7 +15,7 @@ import {Observable,of} from 'rxjs'
   providedIn: 'root'
 })
 export class FruitService {
-fruit:Fruit[]=[
+fruits:Fruit[]=[
   {id:1,name:"oranges",pricePerPound:2.99,quantity:10},
   {id:2,name:"apples",pricePerPound:1.99,quantity:6},
   {id:3,name:"mangos",pricePerPound:2.20,quantity:7},
@@ -15,7 +23,7 @@ fruit:Fruit[]=[
   {id:5,name:"banana",pricePerPound:.89,quantity:6}
 ]
   constructor() { }
-  getFruits():Observable<Fruit[]>{
-    return of(this.fruit)
+  getFruits(): Observable<Fruit[]>{
+    return of(this.fruits)
   }
 }

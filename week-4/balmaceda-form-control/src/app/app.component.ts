@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: App Component
+; Author: Griselda Balmaceda
+; Description: Creating a form that will output stock pric
+;===========================================
+*/
+
 import { Component } from '@angular/core';
 import {FormControl} from '@angular/forms';
 import {debounceTime} from 'rxjs/operators'
