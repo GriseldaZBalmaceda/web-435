@@ -8,8 +8,8 @@
 
 import { Injectable } from '@angular/core';
 import {Fruit} from './fruit';
-import 'rxjs/add/observable/of';
 import {Observable,of} from 'rxjs'
+import 'rxjs/add/observable/of';
 
 @Injectable({
   providedIn: 'root'

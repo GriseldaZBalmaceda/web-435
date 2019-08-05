@@ -14,6 +14,13 @@ import {Fruit} from './fruit'
 @Component({
   selector: 'app-root',
   template: `
+  <nav class="navbar navbar-expand bg-dark navbark-dark">
+  <div class="navbar-nav">
+    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+  </div>
+</nav>
   <br /> <br />
   <div class="container">
   <div class="row">
