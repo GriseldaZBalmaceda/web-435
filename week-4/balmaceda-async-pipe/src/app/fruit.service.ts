@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {Fruit} from './fruit';
 import 'rxjs/add/observable/of';
-import { Observable} from 'rxjs'
+import {Observable,of} from 'rxjs'
 
 @Injectable({
   providedIn: 'root'
@@ -16,6 +16,6 @@ fruit:Fruit[]=[
 ]
   constructor() { }
   getFruits():Observable<Fruit[]>{
-    return Observable.of(this.fruit)
+    return of(this.fruit)
   }
 }

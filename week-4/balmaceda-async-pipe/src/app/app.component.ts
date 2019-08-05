@@ -4,7 +4,6 @@ import { FruitService } from './fruit.service';
 import {Fruit} from './fruit'
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
   template: `
   <br /> <br />
   <div class="container">
@@ -21,10 +20,12 @@ import {Fruit} from './fruit'
   </div>
 
   `,
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  providers:[FruitService]
 })
+
 export class AppComponent {
-  fruits : Observable<Fruit[]>
+  fruits : Observable<Fruit[]>;
   title = 'balmaceda-async-pipe';
   constructor(private fruitService: FruitService){}
 
