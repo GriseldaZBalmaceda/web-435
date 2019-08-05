@@ -2,7 +2,7 @@
 ============================================
 ; Title:  Fruit Service
 ; Author: Griselda Balmaceda
-; Description: App components is the root of the applications
+; Description: Creating Fruit service and getFruits method 
 ;===========================================
 */
 

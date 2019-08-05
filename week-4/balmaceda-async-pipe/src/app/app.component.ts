@@ -1,3 +1,12 @@
+/*
+============================================
+; Title: App Component
+; Author: Griselda Balmaceda
+; Description: App components holds template for application
+                and injects fruit service! 
+;===========================================
+*/
+
 import { Component} from '@angular/core';
 import { Observable} from 'rxjs';
 import { FruitService } from './fruit.service';
