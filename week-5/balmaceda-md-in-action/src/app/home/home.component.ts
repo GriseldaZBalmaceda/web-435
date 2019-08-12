@@ -1,3 +1,9 @@
+/*
+============================================
+; Title: Home Component
+; Author: Griselda Balmaceda
+;===========================================
+*/
 import { Component, OnInit } from '@angular/core';
 
 @Component({

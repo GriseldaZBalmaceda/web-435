@@ -1,3 +1,9 @@
+/*
+============================================
+; Title: Login Component
+; Author: Griselda Balmaceda
+;===========================================
+*/
 import { Component, OnInit } from '@angular/core';
 
 @Component({

@@ -1,6 +1,13 @@
+/*
+============================================
+; Title: App Module
+; Author: Griselda Balmaceda
+; Description: Imported all Angular material components that are needed for this application
+;===========================================
+*/
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations'; 
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -17,7 +24,7 @@ import { AppComponent } from './app.component';
     BrowserAnimationsModule,
     MatCardModule,
     MatButtonModule,
-    MatToolbarModule, 
+    MatToolbarModule,
     MatFormFieldModule,
     MatInputModule
   ],
