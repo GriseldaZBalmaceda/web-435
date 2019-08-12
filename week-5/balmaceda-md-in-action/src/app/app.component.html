@@ -3,7 +3,7 @@
 <!--Toolbar html-->
 <mat-toolbar class="menu" role="header" color="primary">
   <mat-toolbar-row>
-    <button mat-button class="toolbar__icon-button mat-button">
+    <button routerLink="/" mat-button class="toolbar__icon-button mat-button">
       <mat-icon>web</mat-icon>
       <span style="margin-left:5px !important">WEB 425</span>
     </button>
@@ -14,7 +14,7 @@
       <mat-icon>account_circle</mat-icon>
     </button>
     <mat-menu #menu="matMenu">
-      <button href="/login" mat-menu-item>
+      <button routerLink="/login" mat-menu-item>
         <mat-icon> perm_contact_calendar</mat-icon>
         <span>My Profile</span>
       </button>

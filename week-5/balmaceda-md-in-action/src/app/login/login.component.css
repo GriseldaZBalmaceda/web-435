@@ -1,0 +1,20 @@
+.frm-login{
+  width:50%;
+  margin:0 auto;
+  margin-top: 20%;
+}
+
+.from-login-body{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.frm-login-actions{
+  text-align: right;
+}
+
+.wrapper{
+  width: 100%;
+  margin-top: 10%;
+}
