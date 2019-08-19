@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="parent">
+
+  <h2>Parent</h2>
+  <div>
+    Greeting: <input type="text" [(ngModel)]="myGreeting">
+  </div>
+
+  <div>
+    User name: <input type="text" [(ngModel)]="myUser.name">
+  </div>
+
+  <app-child [greeting]="myGreeting" [user]="myUser"></app-child>
+</div>
+
+<router-outlet></router-outlet>
