@@ -1,3 +1,10 @@
+/*
+============================================
+; Title: App Module Component
+; Author: Griselda Balmaceda
+; Description: Importing all necessary modules for the form and material design components
+;===========================================
+*/
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';

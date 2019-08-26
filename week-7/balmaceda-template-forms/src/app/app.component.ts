@@ -1,3 +1,10 @@
+/*
+============================================
+; Title: App Component
+; Author: Griselda Balmaceda
+; Description: We added an onSubmit function that will log our form data
+;===========================================
+*/
 import { Component } from '@angular/core';
 
 @Component({

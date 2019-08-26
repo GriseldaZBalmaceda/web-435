@@ -1,3 +1,10 @@
+/*
+============================================
+; Title: Navigation Component
+; Author: Griselda Balmaceda
+;===========================================
+*/
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
