@@ -1,0 +1,18 @@
+{
+  "name": "balmaceda-ts-server",
+  "version": "1.0.0",
+  "description": "Node and Express",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "typescript": "^3.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "tsc":"tsc"
+  },
+  "author": "Griselda Balmaceda",
+  "license": "ISC",
+  "private": true,
+  "tsc": "tsc"
+}
