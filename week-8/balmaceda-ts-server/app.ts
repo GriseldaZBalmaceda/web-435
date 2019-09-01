@@ -1,3 +1,10 @@
+/*
+============================================
+; Title: App.ts
+; Author: Griselda Balmaceda
+;description: hooking up our angular application with a server
+;===========================================
+*/
 import * as express from "express";
 const app = express();
 
