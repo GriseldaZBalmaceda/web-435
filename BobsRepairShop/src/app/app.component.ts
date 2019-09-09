@@ -1,3 +1,10 @@
+/*
+============================================
+; Title: App Component
+; Author: Griselda Balmaceda
+; Description: Opening the Invoice component to show services
+;===========================================
+*/
 import { Component } from '@angular/core';
 import {MatDialog} from '@angular/material'
 import { InvoiceComponent } from './invoice/invoice.component';

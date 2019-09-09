@@ -1,3 +1,10 @@
+/*
+============================================
+; Title: App Module
+; Author: Griselda Balmaceda
+; Description: Importing all needed modules
+;===========================================
+*/
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {MatDialogModule} from '@angular/material/dialog';

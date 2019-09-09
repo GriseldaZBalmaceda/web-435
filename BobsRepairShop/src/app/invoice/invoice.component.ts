@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: Invoice Component
+; Author: Griselda Balmaceda
+; Description: Holds logic for services calculation.
+;===========================================
+*/
+
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material';
 import { TotalComponent } from '../total/total.component';

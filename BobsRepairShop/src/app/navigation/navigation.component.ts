@@ -1,3 +1,12 @@
+
+/*
+============================================
+; Title: Navigation Component
+; Author: Griselda Balmaceda
+; Description: displays navigation bar
+;===========================================
+*/
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
