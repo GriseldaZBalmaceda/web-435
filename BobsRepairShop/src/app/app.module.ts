@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {MatDialogModule} from '@angular/material/dialog';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule, matMenuAnimations} from '@angular/material/menu';
@@ -13,12 +14,19 @@ import {MatSidenavModule} from '@angular/material/sidenav'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
-
+import { InvoiceComponent } from './invoice/invoice.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatCheckboxModule} from '@angular/material/checkbox'
+import {MatListModule} from '@angular/material/list';
+import { TotalComponent } from './total/total.component'
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent
+    NavigationComponent,
+    InvoiceComponent,
+    TotalComponent
   ],
+  entryComponents:[InvoiceComponent,TotalComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -31,7 +39,12 @@ import { NavigationComponent } from './navigation/navigation.component';
     MatInputModule,
     FlexLayoutModule,
     FormsModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatDialogModule,
+    MatCheckboxModule,
+    MatFormFieldModule,
+    BrowserAnimationsModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
