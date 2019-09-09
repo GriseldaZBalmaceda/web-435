@@ -85,14 +85,14 @@ export class InvoiceComponent implements OnInit {
       console.log(this.services.diskClean.name + ' cost: $' + this.services.diskClean.cost);
       this.totalCost+=this.services.diskClean.cost
     }
- this.services.totalLabor= formData.checkGroup.labor * 50;
- console.log(this.totalLabor)
-   this.partCost=formData.checkGroup.parts
-   this.totalCost+=this.totalLabor
+ console.log(parseInt(formData.checkGroup.labor)*50)
+//  console.log(this.totalLabor)
+//    this.partCost=formData.checkGroup.parts
+//    this.totalCost+=this.services.totalLabor
 // console.log(this.totalCost=+(this.totalLabor+this.partCost))
   this.dialog.open(TotalComponent,{
 data:{
-  totalCost:this.totalCost
+  totalCost:this.totalCost.toFixed(2)
 }
     })
 

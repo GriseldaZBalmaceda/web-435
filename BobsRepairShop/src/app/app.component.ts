@@ -15,7 +15,7 @@ export class AppComponent {
 
 getInvoice(){
   this.dialog.open(InvoiceComponent,{
-    width:"100%!important"
+
   })
 
 };
